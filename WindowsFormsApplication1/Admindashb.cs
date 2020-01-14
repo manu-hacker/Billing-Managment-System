@@ -18,12 +18,12 @@ namespace WindowsFormsApplication1
 
         private void Admindashb_Load(object sender, EventArgs e)
         {
-
+          
         }
 
         private void lblloggedin_Click(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

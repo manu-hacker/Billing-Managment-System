@@ -6,4 +6,3 @@ F:\bill\Billing Managment System New\WindowsFormsApplication1\WindowsFormsApplic
 F:\bill\Billing Managment System New\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
 F:\bill\Billing Managment System New\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
 F:\bill\Billing Managment System New\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.userdashboard.resources
-F:\bill\Billing Managment System New\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojAssemblyReference.cache
