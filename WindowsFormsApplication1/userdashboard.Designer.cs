@@ -76,13 +76,14 @@
             // 
             this.lblloggedin.AutoSize = true;
             this.lblloggedin.BackColor = System.Drawing.Color.SteelBlue;
+            this.lblloggedin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblloggedin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblloggedin.ForeColor = System.Drawing.Color.White;
+            this.lblloggedin.ForeColor = System.Drawing.Color.SandyBrown;
             this.lblloggedin.Location = new System.Drawing.Point(95, 53);
             this.lblloggedin.Name = "lblloggedin";
-            this.lblloggedin.Size = new System.Drawing.Size(34, 21);
+            this.lblloggedin.Size = new System.Drawing.Size(36, 23);
             this.lblloggedin.TabIndex = 5;
-            this.lblloggedin.Text = "Sm";
+            this.lblloggedin.Text = "SM";
             // 
             // lbluser
             // 
@@ -90,7 +91,7 @@
             this.lbluser.BackColor = System.Drawing.Color.SteelBlue;
             this.lbluser.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lbluser.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbluser.ForeColor = System.Drawing.Color.White;
+            this.lbluser.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lbluser.Location = new System.Drawing.Point(24, 51);
             this.lbluser.Name = "lbluser";
             this.lbluser.Size = new System.Drawing.Size(50, 23);
@@ -99,6 +100,7 @@
             // 
             // label2
             // 
+            this.label2.AllowDrop = true;
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.MidnightBlue;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -111,6 +113,7 @@
             // 
             // label1
             // 
+            this.label1.AllowDrop = true;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.MidnightBlue;
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -138,9 +141,9 @@
             this.lblfooter.ForeColor = System.Drawing.Color.White;
             this.lblfooter.Location = new System.Drawing.Point(635, 0);
             this.lblfooter.Name = "lblfooter";
-            this.lblfooter.Size = new System.Drawing.Size(134, 17);
+            this.lblfooter.Size = new System.Drawing.Size(138, 17);
             this.lblfooter.TabIndex = 0;
-            this.lblfooter.Text = "Devloped By Sm S/w.";
+            this.lblfooter.Text = "Devloped By SM  S/w.";
             // 
             // userdashboard
             // 
@@ -177,9 +180,9 @@
         private System.Windows.Forms.ToolStripMenuItem inventoryToolStripMenuItem;
         private System.Windows.Forms.Label lblloggedin;
         private System.Windows.Forms.Label lbluser;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelfooter;
         private System.Windows.Forms.Label lblfooter;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }

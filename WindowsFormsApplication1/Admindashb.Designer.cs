@@ -126,13 +126,14 @@
             // 
             this.lblloggedin.AutoSize = true;
             this.lblloggedin.BackColor = System.Drawing.Color.SteelBlue;
+            this.lblloggedin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblloggedin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblloggedin.ForeColor = System.Drawing.Color.Goldenrod;
             this.lblloggedin.Location = new System.Drawing.Point(95, 53);
             this.lblloggedin.Name = "lblloggedin";
-            this.lblloggedin.Size = new System.Drawing.Size(34, 21);
+            this.lblloggedin.Size = new System.Drawing.Size(36, 23);
             this.lblloggedin.TabIndex = 3;
-            this.lblloggedin.Text = "Sm";
+            this.lblloggedin.Text = "SM";
             this.lblloggedin.Click += new System.EventHandler(this.lblloggedin_Click);
             // 
             // label1
@@ -155,6 +156,7 @@
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(688, 323);
             this.label2.Name = "label2";
+            this.label2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label2.Size = new System.Drawing.Size(92, 37);
             this.label2.TabIndex = 6;
             this.label2.Text = "SbMb";
