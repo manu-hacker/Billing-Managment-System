@@ -176,7 +176,7 @@
             this.MainMenuStrip = this.menuStriptop;
             this.Name = "Admindashb";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Admin Dashboard";
+            this.Text = " ";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Admindashb_Load);
             this.panelfooter.ResumeLayout(false);
