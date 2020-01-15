@@ -51,7 +51,7 @@
             this.panelfooter.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelfooter.Location = new System.Drawing.Point(0, 458);
             this.panelfooter.Name = "panelfooter";
-            this.panelfooter.Size = new System.Drawing.Size(1290, 24);
+            this.panelfooter.Size = new System.Drawing.Size(1370, 24);
             this.panelfooter.TabIndex = 0;
             // 
             // lblfooter
@@ -63,7 +63,7 @@
             this.lblfooter.Name = "lblfooter";
             this.lblfooter.Size = new System.Drawing.Size(134, 17);
             this.lblfooter.TabIndex = 0;
-            this.lblfooter.Text = "Devloped By Sm S/w.";
+            this.lblfooter.Text = "Devloped By SM S/w.";
             // 
             // menuStriptop
             // 
@@ -76,7 +76,7 @@
             this.transactionsToolStripMenuItem});
             this.menuStriptop.Location = new System.Drawing.Point(0, 0);
             this.menuStriptop.Name = "menuStriptop";
-            this.menuStriptop.Size = new System.Drawing.Size(1290, 24);
+            this.menuStriptop.Size = new System.Drawing.Size(1370, 24);
             this.menuStriptop.TabIndex = 1;
             this.menuStriptop.Text = "menuStrip1";
             // 
@@ -85,6 +85,7 @@
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(47, 20);
             this.toolStripMenuItem1.Text = "Users";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // categoryToolStripMenuItem
             // 
@@ -107,7 +108,7 @@
             // transactionsToolStripMenuItem
             // 
             this.transactionsToolStripMenuItem.Name = "transactionsToolStripMenuItem";
-            this.transactionsToolStripMenuItem.Size = new System.Drawing.Size(84, 20);
+            this.transactionsToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.transactionsToolStripMenuItem.Text = "Transactions";
             // 
             // lbluser
@@ -115,7 +116,9 @@
             this.lbluser.AutoSize = true;
             this.lbluser.BackColor = System.Drawing.Color.SteelBlue;
             this.lbluser.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lbluser.CausesValidation = false;
             this.lbluser.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbluser.ForeColor = System.Drawing.SystemColors.MenuText;
             this.lbluser.Location = new System.Drawing.Point(26, 53);
             this.lbluser.Name = "lbluser";
             this.lbluser.Size = new System.Drawing.Size(50, 23);
@@ -165,14 +168,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources.bg1;
-            this.ClientSize = new System.Drawing.Size(1290, 482);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(1370, 482);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblloggedin);
             this.Controls.Add(this.lbluser);
             this.Controls.Add(this.panelfooter);
             this.Controls.Add(this.menuStriptop);
+            this.ForeColor = System.Drawing.Color.MidnightBlue;
             this.MainMenuStrip = this.menuStriptop;
             this.Name = "Admindashb";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

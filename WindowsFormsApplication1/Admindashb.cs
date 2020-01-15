@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
+using WindowsFormsApplication1.UI;
 
 namespace WindowsFormsApplication1
 {
@@ -24,6 +19,12 @@ namespace WindowsFormsApplication1
         private void lblloggedin_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmUsers user = new frmUsers();
+            user.Show();
         }
     }
 }

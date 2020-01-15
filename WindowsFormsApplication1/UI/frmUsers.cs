@@ -15,5 +15,10 @@ namespace WindowsFormsApplication1.UI
         {
             InitializeComponent();
         }
+
+        private void lblTop_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

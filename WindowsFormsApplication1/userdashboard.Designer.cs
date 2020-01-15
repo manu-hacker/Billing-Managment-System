@@ -50,7 +50,8 @@
             this.inventoryToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1272, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(6, 2, 6, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(934, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -131,7 +132,7 @@
             this.panelfooter.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelfooter.Location = new System.Drawing.Point(0, 411);
             this.panelfooter.Name = "panelfooter";
-            this.panelfooter.Size = new System.Drawing.Size(1272, 24);
+            this.panelfooter.Size = new System.Drawing.Size(934, 24);
             this.panelfooter.TabIndex = 9;
             // 
             // lblfooter
@@ -150,7 +151,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApplication1.Properties.Resources.bg1;
-            this.ClientSize = new System.Drawing.Size(1272, 435);
+            this.ClientSize = new System.Drawing.Size(934, 435);
             this.Controls.Add(this.panelfooter);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -161,6 +162,7 @@
             this.Name = "userdashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "User dashboard";
+            this.TopMost = true;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.userdashboard_Load);
             this.menuStrip1.ResumeLayout(false);
